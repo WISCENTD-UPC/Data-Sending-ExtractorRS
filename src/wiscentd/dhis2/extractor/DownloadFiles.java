@@ -1,6 +1,6 @@
-package restservice;
+package wiscentd.dhis2.extractor;
 
-import wiscc.dhis2connector.Main;
+import wiscentd.dhis2.connector.Main;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
