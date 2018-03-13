@@ -9,9 +9,9 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/extraction")
 public class ExecuteConnector {
-	@GET
-	@Produces(MediaType.TEXT_PLAIN)
-	public String startExtraction() {
-		return Integer.toString(Main.execute());
-	}
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String startExtraction() {
+        return Integer.toString(Main.execute());
+    }
 }
