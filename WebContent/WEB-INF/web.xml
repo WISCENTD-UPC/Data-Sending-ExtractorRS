@@ -3,7 +3,7 @@
 		 xmlns="http://java.sun.com/xml/ns/javaee"
 		 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 		 version="3.0">
-	<display-name>dhis-extractor-RestFul-service</display-name>
+	<display-name>Data Sending ExtractorRS</display-name>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
@@ -18,7 +18,7 @@
 		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
 		<init-param>
 		  <param-name>com.sun.jersey.spi.container.ContainerResponseFilters</param-name>
-		  <param-value>wiscc.dhis2extractor.wiscentd.dhis2.extractor.CORSFilter</param-value>
+		  <param-value>wiscentd.dhis2.extractor.CORSFilter</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
