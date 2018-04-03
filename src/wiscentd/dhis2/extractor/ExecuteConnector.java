@@ -12,6 +12,7 @@ public class ExecuteConnector {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String startExtraction() {
-        return Integer.toString(Main.execute());
+        new Main().executeExtraction();
+        return "OK"; // TODO
     }
 }
