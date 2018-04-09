@@ -13,6 +13,6 @@ public class ExecuteConnector {
     @Produces(MediaType.TEXT_PLAIN)
     public String startExtraction() {
         new Main().executeExtraction();
-        return "OK"; // TODO
+        return "OK";
     }
 }
