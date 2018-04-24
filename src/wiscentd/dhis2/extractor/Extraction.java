@@ -12,7 +12,7 @@ public class Extraction {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String startExtraction() {
-        new Main().executeExtraction();
-        return "OK";
+        if (new Main().executeExtraction() != null) return "OK";
+        return null;
     }
 }

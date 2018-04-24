@@ -60,7 +60,7 @@ public class DownloadFiles {
     }
 
     private void consultExtraction() {
-        new Main().consult();
+        //new Main().consult();
     }
 
     private Properties getDhisConfig() {
